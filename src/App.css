@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.adopter{
+  display: flex;
+  flex-flow: row;
+  border-style: groove;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 4%;
+
+}
+.adopterProfile{
+  padding: 10%;
+  font-size: 1.3em;
+}
+
+.meeting{
+
+  padding-top: 10%;
+}
+
+.petCard {
+  display: inline;
+  background-repeat: no-repeat;
+  background-position: center 90%;
+  float: left;
+  margin: 2%;
+  padding: 1%;
+  outline: #3B0B0B dotted thick;
+  transition: 0.75s;
+  opacity: 1;
+}
+
+ul{
+ list-style-type: none;
+ margin: 0px;
+ padding: 0px;
+ overflow: hidden;
+ background-color: #D8C8B2;
+}
+
+li{
+ margin: 0px;
+ float: left;
+ padding: 10px;
+}
+
+li a:hover{
+  margin: 0px;
+  padding: 10px;
+  background-color: #B82647;
+}
